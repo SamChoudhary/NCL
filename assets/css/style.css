@@ -8,11 +8,12 @@ body {
   text-align: center;
 }
 .ncl-launch {
-  background: #e9f4ff;
-  padding: 2rem;
   max-width: 800px;
   margin: 2rem auto;
+  padding: 2rem;
+  background: #e9f4ff;
   border-radius: 10px;
+  text-align: center;
 }
 .ncl-launch h2 {
   font-size: 2.5rem;
