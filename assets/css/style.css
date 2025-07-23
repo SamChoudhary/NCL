@@ -1,0 +1,48 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f9fcff;
+  color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+}
+.ncl-launch {
+  background: #e9f4ff;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 2rem auto;
+  border-radius: 10px;
+}
+.ncl-launch h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #003366;
+}
+.ncl-poster {
+  display: block;
+  margin: 2rem auto;
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.ncl-launch ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.ncl-launch ul.columns {
+  column-count: 2;
+  gap: 2rem;
+}
+.ncl-register-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #0073cf;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+  margin: 1rem 0;
+}
+.ncl-register-button:hover {
+  background: #005bb5;
+}
