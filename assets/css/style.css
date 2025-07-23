@@ -8,12 +8,11 @@ body {
   text-align: center;
 }
 .ncl-launch {
+  background: #e9f4ff;
+  padding: 2rem;
   max-width: 800px;
   margin: 2rem auto;
-  padding: 2rem;
-  background: #e9f4ff;
   border-radius: 10px;
-  text-align: center;
 }
 .ncl-launch h2 {
   font-size: 2.5rem;
@@ -23,7 +22,7 @@ body {
 .ncl-poster {
   display: block;
   margin: 0 auto 2rem;
-  max-width: 60%;
+  max-width: 100%;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
