@@ -1,51 +1,44 @@
 
 body {
-  font-family: Arial, sans-serif;
-  background: #f9fcff;
-  color: #1a1a1a;
+  font-family: 'Poppins', sans-serif;
+  background: #f0f6ff;
+  color: #1c1c1c;
+  text-align: center;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 .ncl-launch {
-  background: #e9f4ff;
-  padding: 2rem;
   max-width: 800px;
   margin: 2rem auto;
+  background: #ffffff;
+  padding: 2rem;
   border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.05);
 }
-.ncl-launch h2 {
-  font-size: 2.5rem;
-  color: #003366;
+.ncl-logo {
+  width: 100px;
+  height: auto;
   margin-bottom: 1rem;
 }
+.presented {
+  color: #0073cf;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.ncl-title {
+  color: #004aad;
+  font-size: 2.4rem;
+  margin-top: 0;
+}
 .ncl-poster {
+  width: 60%;
+  max-width: 400px;
+  border-radius: 12px;
+  margin: 2rem auto;
   display: block;
-  margin: 0 auto 2rem;
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
 }
-.ncl-launch ul {
-  list-style-position: inside;
-  margin-bottom: 1.5rem;
-  padding-left: 0;
-}
-.ncl-launch ul.columns {
-  column-count: 2;
-  column-gap: 2rem;
-}
-.ncl-register-button {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  background: #0073cf;
-  color: #fff;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 6px;
-  margin: 1.5rem 0;
-}
-.ncl-register-button:hover {
-  background: #005bb5;
+.highlight {
+  color: #e67e22;
+  font-weight: 600;
 }
